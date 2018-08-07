@@ -1,0 +1,2 @@
+Thumbor URL Aliases plugin
+==========================

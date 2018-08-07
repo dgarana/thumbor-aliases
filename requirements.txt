@@ -1,0 +1,2 @@
+# Just note this
+git+https://github.com/thumbor-community/core
