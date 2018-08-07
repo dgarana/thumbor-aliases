@@ -35,6 +35,7 @@ setup(
     install_requires=[
         'thumbor',
         'tc_core',
+        'pyyaml',
     ],
     classifiers=[
         'Intended Audience :: Developers',
