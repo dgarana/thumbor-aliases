@@ -49,3 +49,6 @@ For example::
   thumbnail: "100x100/smart"
   header: "800x200/smart"
   
+And in order to finally execute the app and let the magic happen, run next command::
+
+  $ thumbor --conf=your_thumbor_config.cfg -a tc_core.app.App
