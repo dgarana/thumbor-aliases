@@ -21,7 +21,8 @@ extension.add_module(
 extension.add_handler(UrlAliasesHandler.regex(), UrlAliasesHandler)
 
 # Define settings
-Config.define('ALIASES_STORAGE', 'thumbor_aliases.storages.yml_file', 'Aliases storage class', 'URL Aliases')
+Config.define('ALIASES_STORAGE', 'thumbor_aliases.storages.yml_file',
+              'Aliases storage class', 'URL Aliases')
 Config.define('ALIASES_STORAGE_FILE', '~/aliases.yml', 'Aliases file name')
 
 Extensions.register(extension)
