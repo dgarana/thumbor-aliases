@@ -10,7 +10,7 @@ from io import open
 
 # Third-party imports
 # Local imports
-from thumbor_aliases import __version__
+
 
 here = path.abspath(path.dirname(__file__))
 
@@ -22,7 +22,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='thumbor_aliases',
-    version=__version__,
+    version='0.0.1',
     url='http://github.com/dgarana/thumbor-aliases',
     license='MIT',
     author='David Garaña',
