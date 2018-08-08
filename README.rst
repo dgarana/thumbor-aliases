@@ -1,5 +1,7 @@
+
 Thumbor URL Aliases plugin
 ==========================
+.. image:: https://travis-ci.org/bluekiri/thumbor-aliases.svg?branch=master
 **thumbor_aliases** let's you create custom urls to redirect your most-used request
 using a friendly url.
 
