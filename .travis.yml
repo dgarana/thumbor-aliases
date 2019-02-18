@@ -5,3 +5,13 @@ install:
     - pip install tox
 script:
     - tox
+deploy:
+  skip_existing: true
+  provider: pypi
+  user: dgarana
+  password:
+    secure: VoGnyiBFfEA40HWTv7RKslyr15chVEokrg6zx8SZXNNoNlb42oMh97qG+JG68v32BQOa7b+GWEWkYmMrtGojvrRiiIvJsZ2pcCCPwtpBzksneYUKtCEUeNTChQm6zkhQGpJQ3kwQHn2IKi02oKaUpy7vQyjyiuLj+wLaD7IXuKwggkXHmNywZGMAo2cMnUxRf/KgRkDEeUZ1qKRA4O5SUlsfUq0U6MMSQUmRj7jxZv+ySEwOUyJpDbKU9quRzTpKpGzYhaPU0ygfuTJH5nRPt3kQ+TfZUy9GzfjL7c7WaqwrIaozab60BYxT5L3Gicj5CI3OwB/sVi46dGe22XeGBrg36Ogt5kZTSzD/oE6nPzBlFm2eLgvmIsS1FigyB8J5XHNxLH9754W6WSJRaYHD+TOHlrUoBbdQPR80jKu/1uu+wSfZ8EGDrQflNqC8v/E3m0QnA6BC/ZXtLju+TTJABtF3Ho/RQcaphcY7OZyMSIRMcewpt+1CA8u5qooBWZ2zrm6w7odYCya098NZ9IlQaCFdYlRfClJnyuVlrs1fIY1TVw5u2FaOo3+udu3qnRVxMRj66AQcoaM9/GgHvxQ92MERBhP2CDzbP1lMKu1Pnq70abzNUaXvZuDwXo+xivtqYoFNEd+8aXSyQo/B6ht2mkZesqQcVh8IX6i6vccIhpM=
+  on:
+    tags: true
+    repo: dgarana/thumbor-aliases
+
