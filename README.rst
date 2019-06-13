@@ -50,6 +50,16 @@ For example::
 
   thumbnail: "100x100/smart"
   header: "800x200/smart"
+
+With `unsafe` option::
+  
+  thumbnail: "unsafe/100x100/smart"
+  header: "unsafe/800x200/smart"
+
+Example url call::
+
+  GET http://thumbor-server/a/thumbnail/image_url
+
   
 And in order to finally execute the app and let the magic happen, run next command::
 
