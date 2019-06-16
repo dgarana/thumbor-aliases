@@ -22,7 +22,7 @@ with open(path.join(here, 'README.rst'), encoding='utf-8') as f:
 
 setup(
     name='thumbor_aliases',
-    version='0.0.3',
+    version='0.0.4',
     url='http://github.com/dgarana/thumbor-aliases',
     license='MIT',
     author='David Garaña',
